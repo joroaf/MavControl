@@ -1,0 +1,8 @@
+E:\Work++\C#\MavControll\MavControll\bin\Debug\MavControll.exe.config
+E:\Work++\C#\MavControll\MavControll\bin\Debug\MavControll.exe
+E:\Work++\C#\MavControll\MavControll\bin\Debug\MavControll.pdb
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.csprojResolveAssemblyReference.cache
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.Properties.Resources.resources
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.csproj.GenerateResource.Cache
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.exe
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.pdb

@@ -1,0 +1,10 @@
+E:\Work++\C#\MavControll\MavControll\bin\Debug\MavControll.exe.config
+E:\Work++\C#\MavControll\MavControll\bin\Debug\MavControll.exe
+E:\Work++\C#\MavControll\MavControll\bin\Debug\MavControll.pdb
+E:\Work++\C#\MavControll\MavControll\bin\Debug\SlimDX.dll
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControl.csprojResolveAssemblyReference.cache
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControl.MainForm.resources
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControl.Properties.Resources.resources
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControl.csproj.GenerateResource.Cache
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.exe
+E:\Work++\C#\MavControll\MavControll\obj\Debug\MavControll.pdb

@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MavControl.JoystickException" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CustomExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.MainForm" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UgrABBCAkjGYhBxBDECQkQADADZAkICgACAAgSACAEA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.LogEventArgs" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.MavControl">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAgAACBAAAAiAEgAAAAAAAAAIAAAAAAAkAAAAAA=</HashCode>
+      <FileName>MavControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.MavControlBase">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAgAIQAAgBCAAAgAAAIEAAACAAAAAFAAAAAA=</HashCode>
+      <FileName>MavControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.Program" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.RCJoystick" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAIQAwBTAQIABEBAAAAAQgAAAAQMCAAAAABBAABAA=</HashCode>
+      <FileName>RCJoystick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.JoystickDataEventArgs" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>RCJoystick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.IO.BlockingCircularStream" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAACAAQACmGABQAABgQAAAAEAAAAIAAAEIACA=</HashCode>
+      <FileName>mavlink\BlockingCircularStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.UasSummary" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAABAAAAAkIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.MavLinkAsyncWalker" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAIAIAAAABA=</HashCode>
+      <FileName>mavlink\MavLinkAsyncWalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.MavLinkGenericPacketWalker" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAABAAAAAAAAGAAAACAAAAIAAgAAAAA=</HashCode>
+      <FileName>mavlink\MavLinkGenericPacketWalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.MavLinkGenericTransport" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABACAAAQAAASAAAAAAAAAAIAAAAEACAAAAEAA=</HashCode>
+      <FileName>mavlink\MavLinkGenericTransport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MavLinkNet.MavLinkPacket" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIhACAgAABYAhQAgAAAGBQAAAGAAACKAAAAQA=</HashCode>
+      <FileName>mavlink\MavLinkPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.MavLinkState" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAFAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\MavLinkState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.MavLinkUdpTransport">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIIIABQCEgAQCAACAAiAIAABACACQCIBIIAAAsAAA=</HashCode>
+      <FileName>mavlink\MavLinkUdpTransport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.UasMessageMetadata" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>mavlink\UasMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.UasFieldMetadata" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\UasMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.UasEnumMetadata" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgACAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\UasMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.UasEnumEntryMetadata" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAgAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>mavlink\UasMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.Properties.Resources" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAABAABEAAAAQAAAAEAAAAAAkAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavControl.Properties.Settings" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MavLinkNet.UasMessage" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAACAABAABAEQAAAAABIAgA=</HashCode>
+      <FileName>mavlink\UasMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MavLinkNet.MavAutopilot" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEgAFAgAIAAEACAAQDAAAAAAAAAIAAEAAAAQMEA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavType" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxIAAAA4AAGAAIBxABAAQIACAAEQIgAIAAAAAoAACIg=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.FirmwareVersionType" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAQAABAAAAAAAAQIAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavModeFlag" Collapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFQAAAAAAAAAAAACAgAQAAAAAAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavModeFlagDecodePosition" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAAIAgAIAAAAAAAAAAAAACAAACCAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavGoto" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAEBAAAAAAAAAAgAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavMode" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAgAAEQAAAAAAAABAAAggACQAAAAAAAAACA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavState" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAgABIBQAAAAAAAAAAAAgAAAAAQAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavComponent" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAABCABAAAAAQAAUBAIBAIAAIXgAAQIAAAAAAQAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavSysStatusSensor" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAkAAAUCAAgAAAAQAICIkIEAAEAAAAAEAAAgAgJAIA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavFrame" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAABgAAoAAAAAAIAAQAgAAAAQAAAAAAAAAAADAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavlinkDataStreamType" Collapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAEAAAAAAAAAAAAAAAAAAAACAAAEAAAAABAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.FenceAction" Collapsed="true">
+    <Position X="18.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAECAAAAAAAAAAAAEABAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.FenceBreach" Collapsed="true">
+    <Position X="20" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAAEABAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavMountMode" Collapsed="true">
+    <Position X="7.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAAABBAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavCmd" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADiNWwL4zSA43QpFKTcUIQAFADkIgAWAEwBg2AokGCA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavDataStream" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAFAAkBAAAAAAAAAAAAAAAAIAAAgAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavRoi" Collapsed="true">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAIAACABAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavCmdAck" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYIAAAAAAAAAAAAAAAAQAQBAAAEAAAAAAAABAAAAABA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavParamType" Collapsed="true">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAQAAQAAAAAAAIIBAAAAAEEAgAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavResult" Collapsed="true">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAABAAIAAAAAAAEAABAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavMissionResult" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAoAAAEAQAEAAACAIACAAAJACACAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavSeverity" Collapsed="true">
+    <Position X="7.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAYAAAAAAABCAAAAAAAAAAAAAAUAAAAI=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavPowerStatus" Collapsed="true">
+    <Position X="11.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAABAACAAAAAAAAAAAAQAAAAAAAEAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.SerialControlDev" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.SerialControlFlag" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAQAAAAAAAAAAACIAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavDistanceSensor" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavSensorOrientation" Collapsed="true">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAgAACAIAAQAAD4AQBEAAAxgqAQAAAIIEDEJyAAoAE=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavProtocolCapability" Collapsed="true">
+    <Position X="13" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAAAAAAAYAAAIIgAAQCAAAQAAAEAACEAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavEstimatorType" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAIgAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavBatteryType" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAwBABA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavBatteryFunction" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAhA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavVtolState" Collapsed="true">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACQ=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavLandedState" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.AdsbAltitudeType" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.AdsbEmitterType" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAQAAAACQAAQgBkAgIAQBAAAgQBUBAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.AdsbFlags" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAFwAIAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavDoRepositionFlags" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.EstimatorStatusFlags" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABAABAAAAAAIAACQgAAAAAAAAAEAAAAYQAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.LimitsState" Collapsed="true">
+    <Position X="18.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.LimitModule" Collapsed="true">
+    <Position X="16.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.RallyFlags" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.ParachuteAction" Collapsed="true">
+    <Position X="18.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MotorTestThrottleType" Collapsed="true">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAgAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GripperActions" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.CameraStatusTypes" Collapsed="true">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAAAIAAAAAAAAAAQAAAAQEAAAAAAAQAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.CameraFeedbackFlags" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAEAAAAAAABAAAAAAAAABAAAAABAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavModeGimbal" Collapsed="true">
+    <Position X="6" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAACAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAIAAE=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GimbalAxis" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GimbalAxisCalibrationStatus" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAIA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GimbalAxisCalibrationRequired" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproHeartbeatStatus" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAARQAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproHeartbeatFlags" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproRequestStatus" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproCommand" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAAIAAEAAAAAAECAxAAAAAhAYwAAAAAAQE=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproCaptureMode" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACAAAAAAAACAAAEAAABAAAAAAAgAABg=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproResolution" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAYCAAAABQAAAIAAAAAAAAABAAABAAAQAAEAAEBA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproFrameRate" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAAACAAIBAAgBAAEAAAAAAQCAAAAAAI=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproFieldOfView" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproVideoSettingsFlags" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproPhotoResolution" Collapsed="true">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAACAAAAAACAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproProtuneWhiteBalance" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAAAAAAAAAABAAAAACAAAAI=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproProtuneColour" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproProtuneGain" Collapsed="true">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBgAAAAAAAAI=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproProtuneSharpness" Collapsed="true">
+    <Position X="20" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproProtuneExposure" Collapsed="true">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAB4BAAAAAAAAAAAAwF8DAQAAAAAAAADGAQAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproCharging" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproModel" Collapsed="true">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAABQAAAABAAAAAAABA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.GoproBurstRate" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAACAAAgAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.LedControlPattern" Collapsed="true">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.EkfStatusFlags" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAABAAAkAQAAAAAAAACAIAAAKA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.PidTuningAxis" Collapsed="true">
+    <Position X="20" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAIAAAAAAAAAAAAACAAAAACAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MagCalStatus" Collapsed="true">
+    <Position X="20" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAACAAAAAAAAABIAAAABAAAAAAAAAAAAgA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavRemoteLogDataBlockCommands" Collapsed="true">
+    <Position X="14.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MavLinkNet.MavRemoteLogDataBlockStatuses" Collapsed="true">
+    <Position X="16.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\GeneratedMessages.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MavControl.UpdateAttitudeDelegate" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>MavControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MavControl.UpdateHUDDelegate" Collapsed="true">
+    <Position X="11.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>MavControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MavControl.UpdateStatusDelegate" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MavControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MavControl.HeartBeatDelegate" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MavControlBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MavLinkNet.PacketReceivedDelegate" Collapsed="true">
+    <Position X="7.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mavlink\MavLinkGenericPacketWalker.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
