@@ -18,6 +18,7 @@ namespace MavControl
         private UasAttitude Attitude;
         private UasStatustext StatusText;
         private UasHeartbeat HeartBeatMsg;
+        private JoystickDataEventArgs args;
 
         public MavControl()
         {
@@ -47,7 +48,7 @@ namespace MavControl
 
         private void prepareAndSendJoystickData(object state)
         {
-            JoystickDataEventArgs args = (JoystickDataEventArgs) state;
+            args = (JoystickDataEventArgs) state;
 
             RcOverrideUasMsg.Chan1Raw = args.jInput[1]; //roll
             RcOverrideUasMsg.Chan2Raw = args.jInput[2]; //pitch
