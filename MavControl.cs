@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 using MavLinkNet;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace MavControl
 {
@@ -41,6 +42,13 @@ namespace MavControl
 
         public void sendJoysticInput(Object sender, JoystickDataEventArgs args)
         {
+            ThreadPool.QueueUserWorkItem(prepareAndSendJoystickData, args);
+        }
+
+        private void prepareAndSendJoystickData(object state)
+        {
+            JoystickDataEventArgs args = (JoystickDataEventArgs) state;
+
             RcOverrideUasMsg.Chan1Raw = args.jInput[1]; //roll
             RcOverrideUasMsg.Chan2Raw = args.jInput[2]; //pitch
             RcOverrideUasMsg.Chan3Raw = args.jInput[0]; //throttle
