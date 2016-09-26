@@ -92,7 +92,7 @@ namespace MavControl
 
                 //Add EventListeners
                 rc.NewJoystickData += mc.sendJoysticInput;
-                rc.NewJoystickData += new EventHandler<JoystickDataEventArgs>(OnJoystickInput);
+                rc.NewJoystickData += OnJoystickInput;
 
                 mc.TwoWayConnection += WriteLog;
                 mc.UpdateAttitude += UpdateAttitude;
