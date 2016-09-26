@@ -88,7 +88,7 @@ namespace MavControl
             // Acquire sdevice
             Joystick.Acquire();
 
-            ThreadPool.QueueUserWorkItem(new WaitCallback(getJoystickInput), null);
+            ThreadPool.QueueUserWorkItem(getJoystickInput);
         }
 
         private void getJoystickInput(object state)
