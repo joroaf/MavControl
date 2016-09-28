@@ -11,11 +11,11 @@ namespace MavControl
         /// Constants
         /// </summary>
         const ushort PWM_MIDDLE = 1500;
-        const int THROTTLE_RATIO = 45; //MIN - 41, MAX - 50
-        const int ROLL_RATIO = 45; //MIN - 41, MAX - 50
-        const int PITCH_RATIO = 45; //MIN - 41, MAX - 50
-        const int YAW_RATIO = 45; //MIN - 41, MAX - 50
-        private int[] JOYSTICK_INPUT_RANGE = { -100, 100 };
+        const int THROTTLE_RATIO = 64; 
+        const int ROLL_RATIO = 64; 
+        const int PITCH_RATIO = 64; 
+        const int YAW_RATIO = 64; 
+        private int[] JOYSTICK_INPUT_RANGE = { -127, 127 };
 
         /// 
         /// Joystick handle

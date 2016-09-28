@@ -7,3 +7,4 @@ E:\Work++\C#\MavControll\MavControll\obj\Release\MavControl.Properties.Resources
 E:\Work++\C#\MavControll\MavControll\obj\Release\MavControl.csproj.GenerateResource.Cache
 E:\Work++\C#\MavControll\MavControll\obj\Release\MavControll.exe
 E:\Work++\C#\MavControll\MavControll\obj\Release\MavControll.pdb
+E:\Work++\C#\MavControll\MavControll\obj\Release\MavControl.csprojResolveAssemblyReference.cache
