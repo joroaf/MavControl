@@ -79,8 +79,8 @@ namespace MavControl
 
             ModeFlights = new Dictionary<int, string>()
             {
-                {1000, "Loiter"},
-                {1300, "Stabilize"},
+                {1000, "Stabilize"},
+                {1300, "Loiter"},
                 {1400, "AltHold"},
                 {1550, "PosHold"}
             };
@@ -131,11 +131,11 @@ namespace MavControl
                     //chan5
                     if (btns[10])
                     {
-                        joystickInput[4] = FlightModes["Loiter"];
+                        joystickInput[4] = FlightModes["Stabilize"];
                     }
                     else if (btns[11])
                     {
-                        joystickInput[4] = FlightModes["Stabilize"];
+                        joystickInput[4] = FlightModes["Loiter"];
                     }
                     else if (btns[8])
                     {
